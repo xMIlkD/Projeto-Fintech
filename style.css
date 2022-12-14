@@ -1,0 +1,61 @@
+.bg{
+    background-image: url(".bg_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.CaixadeLogin{
+    background-color: rgba(30, 27, 68, 0.377);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.img-logo img {
+    width: 10%;
+    right: 45%;
+    position:absolute;
+}
+.CaixadeLogin h1 {
+    text-align: center;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.boton1{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+.boton1:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.BotaoCadastro {
+    background-color: rgb(29, 148, 55);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+
+}
+.BotaoCadastro:hover{
+    background-color: rgb(31, 202, 74);
+    cursor: pointer;
+}
